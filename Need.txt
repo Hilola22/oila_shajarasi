@@ -1,0 +1,7 @@
+1-terminal
+
+npm run dev:server
+
+2-terminal
+
+npm run dev:client
