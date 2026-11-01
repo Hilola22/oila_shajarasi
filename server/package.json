@@ -1,0 +1,18 @@
+{
+  "name": "oila-shajarasi-server",
+  "version": "1.0.0",
+  "description": "Oila shajarasi — backend (tashqi paketlarsiz: node:http + node:sqlite)",
+  "author": "Hilola O'rozaliyeva",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch src/server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/*.test.js\""
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+
+# SQLite ma'lumotlar bazasi (oila ma'lumotlari — GitHub'ga yuklanmasin!)
+server/data/
+*.db
+*.db-shm
+*.db-wal
